@@ -1,0 +1,19 @@
+{
+  "name": "Flexible Tetris",
+  "version": "1.0.0",
+
+  
+  "description": "A tetris game made easy to extend with new piece models.",
+  
+  "default_locale": "en",
+
+  
+  "content_scripts": [
+      {
+          "css": ["style.css"],
+          "js": ["init.js", "keyboard.js", "screen.js", "tetris.js", "utils.js"]
+      }
+  ],
+  
+    
+}

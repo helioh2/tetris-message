@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TETRIS MESSAGE</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            @import "style.css";
+	</style>
+        <script	type="text/javascript" src="utils.js"></script>
+        <script	type="text/javascript" src="tetris.js"></script>
+        <script	type="text/javascript" src="screen.js"></script>
+        <script	type="text/javascript" src="keyboard.js"></script>
+        <script	type="text/javascript" src="init.js"></script>
+        
+    </head>
+    <body onload="init('PUT YOUR MESSAGE HERE');">
+	<div id="content">
+		<div id="titulo">TETRIS MESSAGE</div>
+		<div id="jogo">
+		    <div id="areaDiv">
+			<div>ARENA</div>
+		        <canvas id="area" name="area" width="500" height="500">Seu navegador n&atilde;o suporta Canvas.</canvas>
+		    </div>
+		    <div id="scoreDiv">
+			<div>PONTOS:</div>
+		        <canvas id="score" name="score" width="280" height="50">Seu navegador n&atilde;o suporta Canvas.</canvas>
+		    </div>
+		    <div id="nextpieceDiv">
+                                <div id="timer"></div>
+                        <div id="level"></div>
+			<div>PR&Oacute;XIMA PE&Ccedil;A:</div>
+		        <canvas id="nextpiece" name="nextpiece" width="120" height="120">Seu navegador n&atilde;o suporta Canvas.</canvas>
+		    </div>
+			<div id="instrucoes">INSTRU&Ccedil;&Otilde;ES<br /><img src="images/instrucoes_notrotate.png"></div>
+                        <div id="dica">DICA: TENTE COLOCAR AS PEÇAS LADO A LADO DA ESQUERDA PARA A DIREITA<br />
+                                       PRESTE ATENÇÃO AO FORMATO DAS PEÇAS xD!!!</div>
+		</div>
+	</div>
+	<div id="creditos"> By Helio H. Monte-Alto. Interface design by André C. Mendes.
+	</div>
+    </body>
+</html>
